@@ -1,0 +1,3286 @@
+/*
+ *	RealEstate Premium Theme v1.5
+ *	Media Layout for MaxDeviceWidth 320px
+ *	
+ *  This stylesheet works only on a 320px width device. i.e. an iPhone on Portrait mode.
+ *
+ *  This theme is based(inherits) on the following styles (in order of apperance):
+ *  1 - Zen Base Theme 5.1 for Drupal 7.
+ *  2 - This file.
+ *
+ * For privacy & confidentiality reasons, you can erase these comments.
+ *
+ * Created by DoubleMThemes for ThemeSnap
+ * http://doublemthemes.com
+ */
+ 
+
+
+ .clear{
+	 clear: both;
+	
+ }
+ 
+ .second-body{
+	 overflow: hidden;
+	
+ }
+ 
+ .section-home-variant-2 h1{
+	 display:none;
+ }
+ 
+ .section-home-variant-2 .breadcrumb, .section-home-variant-4 .breadcrumb{
+ 	 display:none;
+	 
+ }
+ 
+ a{
+ 	color: #0099CC;
+
+ }
+ 
+ body{
+ 	
+	 font-family: 'PTSansRegular';
+ }
+ 
+ h1, h2, h3, h4, h5, h6{
+ 	
+	 font-family: 'PTSansNarrowRegular';
+	 font-weight: normal;
+ }
+ 
+ article h2{
+      border-bottom: 1px solid #CCCCCC;
+ }
+ 
+article h2, article h3, article h4, article h5 {
+     font-size: 1.5em;
+     line-height: 2em;
+     margin-bottom: 0.5em;
+     margin-top: 1em;
+}
+
+#freeze-height,.flag-message{
+	display: none !important;
+}
+ 
+#page, .page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;	
+	overflow: hidden;
+	clear: both;
+}
+
+.left{
+	float: left;
+}
+
+#header{
+	padding: 0;
+}
+
+a {   
+    text-decoration: none;
+	color:#0099CC;
+	-moz-transition: color 0.5s ease-out, background-color 0.5s ease-out;
+	-o-transition: color 0.5s ease-out, background-color 0.5s ease-out;
+	-webkit-transition: color 0.5s ease-out, background-color 0.5s ease-out;
+	transition: color 0.5s ease-out, background-color 0.5s ease-out;
+}
+
+p{
+	margin-top: 0;
+	font-size: 13px;
+    line-height: 20px;
+}
+
+.clear{
+	clear: both;
+}
+
+.section-home-variant-4 .view-id-browse_cars {
+    display: block !important;
+}
+
+.section-home-variant-4 h1 {
+    display: none !important;
+}
+
+.section-home-variant-4 .region-highlighted {
+    margin-top: -18px;
+    height: auto;
+    margin-bottom: -28px;
+}
+
+h1.title {
+    font-size: 38px;
+    line-height: 1em;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+
+body{
+	color: #333333;
+}
+
+body.not-front {	
+    background: url("../images/header-background.png") repeat-x scroll 0 0 transparent;
+}
+
+body.not-front.toolbar {	
+    background: url("../images/header-background.png") repeat-x scroll 0 65px transparent;
+}
+
+#main {
+    padding-top: 18px;
+	font-size: 14px;
+}
+
+.breadcrumb {
+    color: #999999;
+    font-size: 10px;
+}
+
+.breadcrumb a{
+    color: #666666;
+}
+
+.front #main, .section-home-variant-2 #main {
+    margin-top: 22px;
+    padding: 0;
+    position: relative;
+    z-index: 10;
+}
+
+.region-highlighted {
+    height: 424px;
+}
+
+
+/* Page Top */
+
+#page-top-wide  {
+    height: 28px;
+}
+
+
+#block-system-user-menu {
+    float: left;
+}
+
+#page-top-wide ul.menu {
+    margin: 0;
+    padding: 0;
+}
+
+#page-top-wide ul.menu li {
+    border-right: 1px solid #555555;
+    display: inline-block;
+    height: 14px;
+    margin-bottom: 6px;
+    margin-top: 7px;
+}
+
+#page-top-wide ul.menu li.last {
+    border-right: none;
+}
+
+#page-top-wide ul.menu li a {
+    display: block;
+    font-size: 11px;ide
+    height: 25px;
+    margin-top: -4px;
+    padding-left: 12px;
+    padding-right: 16px;
+    padding-top: 0;
+    text-decoration: none;
+}
+
+#page-top-wide ul.menu li.first a {
+    padding-left: 0;
+}
+
+#block-block-6 {
+    float: right;
+    font-size: 11px !important;
+    height: 24px;
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+
+#block-block-6 p {
+    font-size: 13px !important;
+    margin-top: 2px;
+}
+
+#block-widgets-s-socialmedia-profile-default {
+    border-left: 1px solid #555555;
+    float: right;
+    font-size: 11px;
+    height: 17px;
+    margin-bottom: 0;
+    margin-left: 12px;
+    margin-top: 6px;
+    padding-left: 6px;
+    padding-top: 0;
+}
+
+div.widgets-element-horizontal {
+    float: left;
+    margin-left: 8px;
+}
+
+div.widgets-element-horizontal a {
+    opacity: 0.4;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	-webkit-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+
+div.widgets-element-horizontal a:hover {
+    opacity: 1;	
+}
+
+
+/* Page Top */
+
+#page-top-wide {
+    background: none repeat scroll 0 0 #201D18;
+    color: #BBBBBB;
+}
+
+#page-top-wide a{    
+    color: #BBBBBB;
+}
+
+
+/* Navigation */
+
+#block-system-main-menu {    
+	display: none;
+}
+
+#block-jump-menu-jump-menu-m-main-menu select {    
+    font-family: 'DroidSansRegular';
+    font-size: 14px;
+    height: 43px;    
+    padding: 10px;
+    width: 300px;
+}
+
+
+/* Region Header */
+
+.region-header {
+    clear: right;
+}
+
+
+/* Cars Browser Home Block THUMBNAIL VIEW */
+
+
+#block-views-browse-cars-block-3 .view-browse-cars {
+    display: block;
+}
+
+
+/* Cars Browser THUMBNAIL VIEW */
+
+.view-browse-cars .views-row {
+    border-top: 1px dashed #CCCCCC;
+    float: left;
+    font-size: 12px;
+    margin-bottom: 22px;
+    margin-right: 30px;
+    padding-top: 28px;
+    width: 300px;
+}
+
+.view-browse-cars .views-row-1, .view-browse-cars .views-row-2, .view-browse-cars .views-row-3 {
+    border-top: none;
+    padding-top: 0;
+}
+
+.view-browse-cars .views-row .views-field-field-image img{
+	padding: 3px;
+	border: solid 1px #706858;
+}
+
+.view-browse-cars .views-row .views-field-field-image {
+    background: url("../images/car-footer.png") no-repeat scroll 0 204px transparent;
+    height: 212px;
+}
+
+.view-browse-cars .views-row .views-field-field-image-1 {
+    border: 1px solid #BBBBBB;
+	-webkit-box-shadow: 0 0 2px #000000;
+	-o-box-shadow: 0 0 2px #000000;
+	-moz-box-shadow: 0 0 2px #000000;
+    box-shadow: 0 0 2px #000000;
+    height: 35px;
+    margin-left: 7px;
+    margin-top: 161px;
+    position: absolute;
+}
+
+.view-browse-cars .views-row .views-field-title h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    margin-top: 6px;
+}
+
+.view-browse-cars .views-row .views-field-title h3 a{
+    color: #333333 !important;
+}
+
+.view-browse-cars .views-row .views-label{
+	color: #999999;	
+}
+
+.view-browse-cars .views-row .views-field-field-bathrooms, .view-browse-cars .views-row .views-field-field-garages, .view-browse-cars .views-row .views-field-field-bedrooms, .view-browse-cars .views-row .views-field-field-listing-type, .view-browse-cars .views-row .views-field-field-lot-size, .view-browse-cars .views-row .views-field-field-property-type, .view-browse-cars .views-row  .views-field-field-sq-ft-, .view-browse-cars .views-row .views-field-field-year{
+	float: left;
+    width: 149px;
+}
+
+.view-browse-cars .views-row .views-field-field-color{
+	clear: both;
+}
+
+.view-browse-cars .views-row .views-field-title-1 {
+    border-left: 1px solid #EEEEEE;
+    float: right;
+    font-size: 17px;
+    margin-left: 14px;
+    margin-top: 5px;
+    padding-left: 8px;
+}
+.view-browse-cars .views-row .views-field-title-1 h4{    
+    margin: 0;
+}
+
+.view-browse-cars .views-row .views-field-title-1 a{    
+    color: #706A5A;
+}
+
+.view-browse-cars .view-header .cars-summary {
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    height: 33px;
+    margin-bottom: 23px;
+    padding-left: 124px;
+    margin-top: 0;
+    padding-top: 9px !important;
+}
+
+.view-browse-cars .view-footer .cars-summary {
+    margin-bottom: 10px;
+    margin-top: 0;
+	border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+	height: 33px;
+    padding-top: 9px !important;
+}
+
+
+
+
+.view-id-browse_cars.view-display-id-attachment_1{
+    border: 1px solid #333333;
+    margin-bottom: 24px;
+    padding: 3px;
+}
+
+
+/* Compare Links */
+
+.view-browse-cars .views-field-title-2 a, .view-browse-cars a.flag {
+    display: block;
+    float: left;
+    margin-right: 18px;
+    margin-top: 9px;
+    padding-left: 25px;
+    padding-right: 8px;
+    padding-top: 1px;
+}
+
+.view-browse-cars .views-field-title-2 a:hover, .view-browse-cars a.flag:hover {    
+    background-color: #998C6F;
+}
+
+.view-browse-cars .views-field-title-2 a {
+    background: url("../images/detailed.png") no-repeat scroll 4px 4px #EEEEEE;
+    clear: both;
+}
+
+.view-browse-cars .views-field-title-2 a:hover {
+    background: url("../images/detailed-hover.png") no-repeat scroll 4px 4px #0099CC;
+    color: #FFFFFF;
+}
+
+.view-browse-cars a.flag {
+	background: url("../images/compare_ad.png") no-repeat scroll  6px 7px #EEEEEE;
+}
+
+.view-browse-cars a.flag:hover {
+    background: url("../images/compare_re-hover.png") no-repeat scroll 6px 7px #0099CC;
+    color: #FFFFFF;
+}
+
+.view-browse-cars a.unflag-action {
+    background: url("../images/compare_re.png") no-repeat scroll 6px 7px #0099CC;
+    color: #FFFFFF;
+}
+
+.view-browse-cars a.unflag-action:hover {
+    background: url("../images/compare_re.png") no-repeat scroll 6px 7px #0099CC;
+    color: #FFFFFF;
+}
+
+.flag-throbber{
+	position: absoulte;
+	display: none;
+}
+
+
+/* Compare Table */
+
+.view-display-id-cars_compare th {
+    background: none repeat scroll 0 0 #FFFFFF;
+    font-variant: small-caps;
+    padding: 10px 50px 10px 15px;
+}
+
+.view-display-id-cars_compare td {
+    background: none repeat scroll 0 0 #FAFAFA;
+    padding: 0 15px 0 17px;
+}
+
+.view-display-id-cars_compare h3 {
+    font-size: 21px;
+    margin: 15px 0;
+}
+
+.view-display-id-cars_compare h4 {
+    font-size: 19px;
+    margin: 15px 0;
+}
+
+.view-display-id-cars_compare img{
+    padding: 3px;
+	border: solid 1px #706858;
+}
+
+.view-display-id-cars_compare .car-image {
+    background: url("../images/car-footer-list.png") no-repeat scroll center 132px transparent;
+    width: 195px;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-image {
+    background: url("../images/car-footer-list.png") no-repeat scroll 0 132px #FFFFFF;
+    float: left;
+    height: 140px;
+    margin-right: 20px;
+}
+
+.view-display-id-cars_compare a.flag{
+    margin-right: 0;
+}
+
+.view-display-id-cars_compare a.flag-action{
+	display: none;
+}
+
+h2.empty {
+    color: #CCCCCC;
+    font-size: 58px;
+    line-height: 71px;
+    text-align: center;
+}
+
+
+/* View Style Buttons */
+
+#quicktabs-tab-browse_cars-0 {
+    background: url("../images/thumbs.png") repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 0;
+    height: 28px;
+    width: 28px;
+}
+
+#quicktabs-tab-browse_cars-0:hover, .active #quicktabs-tab-browse_cars-0{
+    background-position: 0 -28px;    
+}
+
+#quicktabs-tab-browse_cars-1 {
+    background: url("../images/lists.png") repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 0;
+    height: 28px;
+    width: 28px;
+}
+
+#quicktabs-tab-browse_cars-1:hover, .active #quicktabs-tab-browse_cars-1 {
+    background-position: 0 -28px;    
+}
+
+#quicktabs-tab-browse_cars-2 {
+    background: url("../images/compare.png") repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 0;
+    height: 28px;
+    width: 28px;
+}
+
+#quicktabs-tab-browse_cars-2:hover, .active #quicktabs-tab-browse_cars-2 {
+    background-position: 0 -28px;    
+}
+
+#quicktabs-tab-browse_cars-3 {
+    background: url("../images/compare.png") repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 0;
+    height: 28px;
+    width: 28px;
+}
+
+#quicktabs-tab-browse_cars-3:hover, .active #quicktabs-tab-browse_cars-3 {
+    background-position: 0 -28px;    
+}
+
+#quicktabs-browse_cars .quicktabs-tabs {
+    margin-bottom: -36px;
+    padding: 0;
+}
+
+#quicktabs-browse_cars .quicktabs-tabs li {
+    display: inline-block;
+    margin-right: 7px;
+    padding: 0;
+}
+
+
+/* Cars Browser LIST VIEW */
+
+.view-browse-cars.view-display-id-cars_list .views-row {    
+    float: none;
+    margin-right: 0;
+    width: 100%;
+	height: 139px;
+	margin-left: -30px;    
+	padding: 28px 30px 20px;
+	margin-bottom: 0;
+	-moz-transition: box-shadow 0.5s ease-out;
+	-o-transition: box-shadow 0.5s ease-out;
+	-webkit-transition: box-shadow 0.5s ease-out;
+	transition: box-shadow 0.5s ease-out;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row-1 {
+    border-top: none;    
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row-2, .view-browse-cars.view-display-id-cars_list  .views-row-3 {
+    border-top: 1px dashed #CCCCCC;
+    padding-top: 28px;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-image img{
+	padding: 3px;
+	border: solid 1px #706858;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-image {
+    background: url("../images/car-footer-list.png") no-repeat scroll 0 132px transparent;
+    float: left;
+    height: 140px;
+    margin-right: 20px;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row:hover {    
+	-moz-box-shadow: 0 0 40px #CCCCCC;
+	-o-box-shadow: 0 0 40px #CCCCCC;
+	-webkit-box-shadow: 0 0 40px #CCCCCC;
+	box-shadow: 0 0 40px #CCCCCC;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-color {
+    clear: none;
+	border-left: 1px solid #EEEEEE; 
+    padding-left: 10px;
+	float: left;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-title h3 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-miles, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-drive, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-fuel-type, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-transmition, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-body-style, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-doors, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-cylinders, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-epa-mileage-road- {
+    border-left: 1px solid #EEEEEE;    
+    margin-right: 10px;
+    padding-left: 10px;
+    width: auto;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-doors{
+	margin-right: 100px;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-miles, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-epa-mileage-road-{
+	border-left: none;    
+    padding-left: 0;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-field-title-2 {
+    clear: none;
+    margin-top: 65px;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-field-title-2 a {    
+    clear: none;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-field-nothing-1 {
+    float: left;
+    height: 4px;
+    width: 736px;
+}
+
+
+/* Cars Browser Exposed Filters */
+
+.views-exposed-widgets {
+    font-size: 12px; 
+}
+
+.view-filters, #block-views-exp-browse-cars-cars-thumbs {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border-bottom: 1px dashed #CCCCCC;
+    border-top: none !important;
+    margin-bottom: 25px;
+    padding: 0 16px;
+	
+}
+
+.front .view-filters, #block-views-exp-browse-cars-cars-thumbs {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px none #CCCCCC;
+    border-top: medium none !important;
+    margin-bottom: 25px;
+    margin-top: 26px;
+    padding: 0 16px 11px;
+}
+
+
+
+
+
+
+/* Footer */
+
+#page-footer-wide{
+	background: none repeat scroll 0 0 #201D18;
+	color: #AAAAAA;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+#page-footer-wide a {
+    color: #AAAAAA;
+    text-decoration: underline;
+}
+
+#page-footer-wide a:hover{
+	color: #CCCCCC;
+}
+
+#footer {
+    background: url("../images/footer.png") no-repeat scroll center 0 transparent;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer .block {
+    float: left;
+    margin-top: 24px;
+}
+
+#footer .block.last {    
+    margin-right: 0;
+}
+
+#footer h2.block-title {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+
+/* Bottom Closure */
+
+.region-bottom {
+    border-top: 1px solid #555555;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 0;
+	margin-top: 30px;
+}
+
+.region-bottom .block{
+	margin: 0;
+}
+
+.region-bottom .block p{
+	margin: 0;
+}
+
+
+
+
+/* Footer Cars Blocks */
+
+.view-footer-car-blocks .views-row img{
+	padding: 3px;
+	border: solid 1px #706858;
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.view-footer-car-blocks .views-row {
+    border-top: 1px dashed #706858;
+    margin-top: 6px;
+    padding-top: 14px;
+}
+
+.view-footer-car-blocks .views-row-first {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.view-footer-car-blocks .views-row .views-field-field-image {
+    float: left;
+    margin-right: 10px;
+}
+
+.view-footer-car-blocks .views-row .views-field-title h3 {
+    margin: 0 0 9px;
+}
+
+.view-footer-car-blocks .views-row .views-field-title h3 a{
+    text-decoration: none !important;
+}
+
+.view-footer-car-blocks .views-row .views-field-title h3 strong {
+    font-size: 14px;
+}
+
+.view-footer-car-blocks .views-row .views-field-nothing {
+    color: #777777;
+    font-size: 10px;
+    margin-top: 4px;
+    padding-bottom: 15px;
+}
+
+
+/* Sidebar Cars Blocks */
+
+.sidebar .views-row img{
+	padding: 3px;
+	border: solid 1px #CCCCCC;
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.sidebar  .views-row {
+    border-top: 1px dashed #CCCCCC;
+    margin-top: 6px;
+    padding-top: 14px;
+	min-height: 71px;
+}
+
+.sidebar  .views-row-first {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.sidebar  .views-row .views-field-field-image {
+    float: left;
+    margin-right: 10px;
+}
+
+.sidebar  .block {
+    margin-bottom: 34px;
+}
+
+.sidebar  .views-row .views-field-title h4 {
+    margin: 0 0 9px;
+}
+
+.sidebar  .views-row .views-field-title h4 a{
+    text-decoration: none !important;
+}
+
+.sidebar  .views-row .views-field-title h4 strong {
+    font-size: 14px;
+}
+
+.sidebar  .views-row .views-field-nothing {
+    color: #777777;
+    font-size: 10px;
+    margin-top: 4px;
+    padding-bottom: 15px;
+}
+
+.sidebar  h2.block-title {
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 17px;
+    padding-bottom: 0;
+}
+
+.sidebar-first .region-sidebar-first {
+    border-right: 1px solid #CCCCCC;    
+    padding-right: 15px;
+}
+
+
+/* Special Tags*/
+
+.reduced {
+    background: url("../images/reduced.png") no-repeat scroll right top transparent;
+    display: block;
+    height: 89px;
+    margin-top: -8px;
+    position: absolute;
+    width: 297px;
+    
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.reduced {
+	    background: url("../images/reduced@2x.png") no-repeat scroll right top transparent;
+		background-size: 94px 51px;
+	}
+}
+
+.featured {
+    background: url("../images/featured.png") no-repeat scroll right top transparent;
+    display: block;
+    height: 89px;
+    margin-top: -8px;
+    position: absolute;
+    width: 297px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.featured {
+	    background: url("../images/featured@2x.png") no-repeat scroll right top transparent;
+		background-size: 94px 51px;
+	}
+}
+
+.new {
+    background: url("../images/new.png") no-repeat scroll right top transparent;
+    display: block;
+    height: 89px;
+    margin-top: -8px;
+    position: absolute;
+    width: 297px;
+    
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.new {
+	    background: url("../images/new@2x.png") no-repeat scroll right top transparent;
+		background-size: 94px 51px;
+	}
+}
+
+.sold {
+    background: url("../images/sold.png") no-repeat scroll right top transparent;
+    display: block;
+    height: 205px;
+    margin-top: -3px;
+    position: absolute;
+    width: 305px;
+}
+
+
+
+.view-display-id-cars_list .featured, .view-display-id-cars_list  .new , .view-display-id-cars_list  .low , .view-display-id-cars_list  .sold, .view-display-id-cars_list  .reduced{
+	width: 189px;
+}
+
+.view-display-id-cars_list .views-label-field-property-type {
+    float: left;
+    width: 31px;
+}
+
+.view-display-id-cars_list .sold {
+    background: url("../images/sold.png") no-repeat scroll -50px -36px transparent;
+}
+
+
+/* Make Browser */
+
+.view-make-browser{
+	padding-bottom: 15px;
+}
+
+.view-make-browser .views-row {
+    border-right: 1px dashed #CEB6A2;
+    float: left;
+    margin-right: 9px;
+    padding-right: 11px;
+    text-align: center;
+    width: 100px;
+	margin-bottom: 30px;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	-webkit-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+
+.view-make-browser .views-row h3 {
+    margin-bottom: 1px;
+    margin-top: 0;
+}
+
+.view-make-browser .views-row .make-items {
+    color: #999999;
+    font-size: 11px;
+    margin-bottom: 1px;
+    margin-top: 0;
+}
+
+.view-make-browser .views-row.fade  {
+    opacity: 0.4;	
+}
+
+.view-make-browser a {
+    display: block;
+    height: 124px;
+    margin-left: -8px;
+    position: absolute;
+    width: 119px;
+}
+
+
+/* Home Page */
+
+body.front #content h2.block-title {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+body.front .view-browse-cars .views-row {
+    border-bottom: none;    
+}
+
+body.front .view-browse-cars.view-display-id-block_3 .views-row {
+    margin-bottom: 25px;
+}
+
+body.front #content .block {
+    border-top: 1px dashed #EFEFEF;
+    clear: both;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+    padding-top: 13px;
+}
+
+body.front h1 {
+	display: none;
+}
+
+body.front {
+    
+}
+
+body.front.toolbar {	
+}
+
+body.front #block-block-5 {
+	border-top: none !important;
+    padding: 0 47px;
+}
+
+body.front #block-block-5 h3 {
+    float: none;
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    width: 877px;
+}
+
+body.front #block-block-5 .call-to-action {
+    background: url("../images/call.png") no-repeat scroll 15px 14px #958B68;
+    color: #FFFFFF;
+    float: right;
+    font-family: 'YanoneKaffeesatzThin';
+    font-size: 25px;
+    margin-top: 26px;
+    padding: 15px 20px 15px 50px;
+	border: solid 1px #958B68;
+}
+
+body.front #block-block-5 .call-to-action:hover {
+    background: url("../images/call.png") no-repeat scroll 15px -79px #FFFFFF;
+    color: #958B68;    
+}
+
+#block-views-browse-cars-block-3 {
+    border-top-color: #CCCCCC !important;
+}
+
+
+/* Pagination */
+
+ul.pager {    
+    height: 36px;
+    margin-bottom: -45px;
+    padding-top: 9px !important;
+    text-align: right !important;
+	margin-top: 0;
+}
+
+ul.pager li {    
+    display: inline-block !important;
+    margin-left: 4px;
+    padding: 0 !important;
+	
+}
+
+ul.pager li.pager-current {
+    background: none repeat scroll 0 0 #0099CC;
+    border: 1px solid #0099CC;
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    height: 24px;
+    padding: 1px 7px 0 !important;
+}
+
+ul.pager li a{
+	border: 1px solid #0099CC;
+    display: block;
+    font-size: 12px;
+    padding: 1px 7px 0;
+	color: #0099CC;
+	-moz-transition: background-color 0.5s ease-out, color 0.5s ease-out;
+	-o-transition: background-color 0.5s ease-out, color 0.5s ease-out;
+	-webkit-transition: background-color 0.5s ease-out, color 0.5s ease-out;
+	transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+ul.pager li a:hover{
+	background: none repeat scroll 0 0 #0099CC;
+	color: #FFFFFF !important;
+}
+
+.item-list .pager li {
+    padding: 0 2px 4px !important;
+}
+
+
+/* Filters */
+
+.views-exposed-widget .form-select {
+    height: 36px;
+    padding: 10px;
+    width: 145px;
+}
+
+.views-exposed-widget .form-submit {
+    background: none repeat scroll 0 0 #0099CC;
+    border: 1px solid #0099CC;
+    color: #FFFFFF;
+    height: 38px;
+    margin-top: 23px !important;
+    padding: 10px;
+   
+	-moz-transition: background-color 0.5s ease-out, color 0.5s ease-out;
+	-o-transition: background-color 0.5s ease-out, color 0.5s ease-out;
+	-webkit-transition: background-color 0.5s ease-out, color 0.5s ease-out;
+	transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+.views-exposed-widget .form-submit:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #0099CC;    
+}
+
+.views-exposed-widgets {
+    color: #777777;
+    font-size: 11px;
+}
+
+#edit-price-wrapper .form-item {
+    float: left;
+}
+
+#edit-price-wrapper .form-item-price-max {
+    margin-left: 5px;
+    margin-top: -24px;
+}
+
+#it-price-wrapper{
+	padding-right: 0;
+}
+
+#edit-price-wrapper .form-text {
+    padding: 10px;
+    width: 82px;
+}
+
+.sort-block{
+	clear: both;
+}
+
+.filters-block .left {
+background: url("../images/filter.png") no-repeat scroll 4px 30px transparent;
+    font-size: 16px;
+    width: 147px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.filters-block .left {
+		background: url("../images/filter@2x.png") no-repeat scroll 4px 30px transparent;
+		background-size: 35px 35px;
+	}
+}
+
+.filters-block .left h4 {
+    line-height: 19px;
+    margin-left: 48px;
+    margin-top: 27px;
+}
+
+.sort-block .left {
+    background: url("../images/sort.png") no-repeat scroll 4px 30px transparent;
+    font-size: 16px;
+    width: 147px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.sort-block .left {
+	    background: url("../images/sort@2x.png") no-repeat scroll 4px 30px transparent;
+		background-size: 37px 33px;
+	}
+}
+
+.sort-block .left h4 {
+    line-height: 19px;
+    margin-top: 27px;
+	margin-left: 48px;
+}
+
+
+/* Exposed Filters */
+
+.view-browse-cars{
+	display: none;
+}
+
+#quicktabs-browse_cars .view-browse-cars{
+	display: block;
+}
+
+
+/* Car Page */
+
+.field-slideshow-carousel li {
+    opacity: 1;
+}
+
+body.node-type-property .field-name-field-image .field-slideshow-slide {
+	background: url("../images/car-footer.png") no-repeat scroll center 320px transparent;
+}
+
+body.node-type-property .field-name-field-image img {
+	padding: 3px;
+	border: solid 1px #CCCCCC;
+}
+
+body.node-type-property #field-slideshow-1-controls {
+    margin-left: 17px;
+    margin-top: -179px;
+    position: absolute;
+    width: 444px;
+    z-index: 100;
+}
+
+body.node-type-property #field-slideshow-1-controls a.prev{
+	background: url("../images/slider-arrows.png") repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 0;
+    height: 30px;
+    opacity: 0.8;
+    width: 30px;
+	float: left;
+}
+
+body.node-type-property #field-slideshow-1-controls a.next{
+	background: url("../images/slider-arrows.png") repeat scroll 30px 0 transparent;
+    display: block;
+    font-size: 0;
+    height: 30px;
+    opacity: 0.8;
+    width: 30px;
+	float: right;
+}
+
+body.node-type-property #field-slideshow-1-carousel-wrapper {
+    margin-top: 8px;
+}
+
+body.node-type-property #field-slideshow-1-carousel-wrapper a.carousel-prev {
+    background: url("../images/thumbs-arrows.png") no-repeat scroll 3px center #CCCCCC;
+    display: block;
+    float: left;
+    font-size: 0;
+    height: 65px;
+    width: 13px;
+}
+
+body.node-type-property #field-slideshow-1-carousel-wrapper a.carousel-next {
+    background: url("../images/thumbs-arrows.png") no-repeat scroll -16px center #CCCCCC;
+    display: block;
+    float: left;
+    font-size: 0;
+    height: 65px;
+    width: 13px;
+}
+
+body.node-type-property #field-slideshow-1-carousel-wrapper a.carousel-next:hover, body.node-type-property #field-slideshow-1-carousel-wrapper a.carousel-prev:hover {
+    background-color: #999999;    
+}
+
+body.node-type-property #field-slideshow-1-carousel-wrapper #field-slideshow-1-carousel {
+    float: left;
+    margin-left: 2px;
+    padding-right: 2px;
+    width: 448px;
+}
+
+body.node-type-property #field-slideshow-1-carousel-wrapper li.jcarousel-item-horizontal {
+    width: 90px !important;
+}
+
+
+body.node-type-property .field-name-field-image {
+    border-right: medium none;
+    float: left;
+    margin-right: 33px;
+    padding-right: 25px;
+}
+
+body.node-type-property .field-name-field-price .field-item{
+}
+
+body.node-type-property .group-details {
+    border: 1px solid #CCCCCC;
+    float: left;
+    padding: 0 31px 15px;
+    width: 360px;
+}
+
+body.node-type-property .group-details .field-item {
+    text-align: right;
+    width: 160px;
+}
+
+body.node-type-property .group-details .field {
+    border-bottom: 1px dashed #EEEEEE;
+    font-size: 12px;
+    padding-bottom: 6px;
+}
+
+body.node-type-property .group-details .field-label {
+    width: 200px;
+}
+
+body.node-type-property .group-details h2{
+    border-bottom: solid 1px #EEEEEE;
+	margin-top: 9px;
+}
+
+body.node-type-property .field-group-htabs-wrapper {
+    clear: both;
+    float: left;
+    font-size: 12px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+body.node-type-property .field-group-htabs-wrapper h2 {
+    border-bottom: 1px solid #EEEEEE;
+    font-size: 21px;
+    margin-top: 0;
+}
+
+body.node-type-property .field-group-htabs-wrapper .field-type-taxonomy-term-reference .field-item {
+    background: url("../images/check.png") no-repeat scroll 0 4px transparent;
+    float: left;
+    margin-bottom: 13px;
+    margin-right: 68px;
+    padding-left: 19px;
+    width: 145px;
+}
+
+body.node-type-property .field-group-htabs-wrapper .horizontal-tabs-panes{
+	padding: 10px 0 20px;
+}
+
+body.node-type-property .field-name-body {
+    clear: both;
+    padding-top: 14px;
+}
+
+
+
+.sidebar-first #content {
+    border-left: 1px solid #CCCCCC;
+    padding-left: 20px;
+    width: 769px;
+}
+
+body.node-type-property.sidebar-first .group-details {
+    margin-bottom: 11px;
+    padding: 0 19px 15px;
+    width: 206px;
+}
+
+body.node-type-property.sidebar-first .field-name-field-image {    
+    margin-right: -1px;    
+}
+
+body.node-type-property.sidebar-first .group-details .field-label {
+    width: auto;
+}
+
+body.node-type-property.sidebar-first .group-details .field-item {
+    text-align: left;
+    width: auto;
+}
+
+.comment_forbidden{
+	display: none !important;
+}
+
+#block-widgets-s-share-car h2{
+	border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 14px;
+}
+
+#block-system-main-menu .menu-694 ul, #block-system-main-menu .menu-694 ul {
+display: none !important;
+}
+
+
+/* Sidebar Exposed Filters */
+
+#block-multiblock-1 .left, #block-multiblock-1 #edit-price-wrapper , #block-multiblock-1 .views-widget-sort-order, #block-multiblock-1 .views-widget-per-page, #block-multiblock-1 .views-reset-button{
+	display: none;
+}
+
+#block-multiblock-1 .views-exposed-widget .form-select {
+    height: auto;
+    padding: 4px;
+    width: 172px;
+}
+
+#block-multiblock-1 .views-exposed-widget .form-submit {    
+    height: 30px;
+    margin-top: 13px !important;
+    padding: 5px 30px;
+}
+
+#block-multiblock-1 #edit-make-wrapper {
+    margin-top: -9px;
+    padding-top: 0;
+}
+
+
+/* Car Share Block */
+
+#block-widgets-s-share-car{
+	clear: both;
+}
+
+
+/* Related Cars */
+
+.view-related-cars h2 {
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 14px;
+}
+
+.view-related-cars {
+	clear: both;
+}
+
+.view-related-cars .views-row {
+    float: left;
+    margin-right: 12px;
+    width: 140px;
+}
+
+.view-related-cars .views-row h3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.view-related-cars .views-row-last {
+	margin-right: 0;
+}
+
+.view-related-cars .views-row img{
+	padding: 3px;
+	border: solid 1px #CCCCCC;
+}
+
+.view-related-cars .views-row .views-field-nothing {
+    color: #777777;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#block-system-main-menu .menu-364 ul, #block-system-main-menu .menu-361 ul{
+	display: none !important;
+}
+
+.region-sidebar-first #edit-field-listing-type-tid-wrapper, .region-sidebar-first #edit-field-status-tid-wrapper, .region-sidebar-first #edit-field-year-value-wrapper ,  .region-sidebar-first #edit-field-agent-tid-wrapper{
+	display: none;
+}
+
+.properties-menu{
+	display: none;
+	
+}
+
+
+/* WebForm Contact Dealer */
+
+.messages p{
+	margin: 0;
+}
+
+#block-webform-client-block-33 label {
+    color: #555555;
+    font-size: 12px;
+}
+
+#block-webform-client-block-33 .form-item {
+    width: 296px;
+}
+
+#block-webform-client-block-33  #webform-component-message{
+	float: left;
+}
+
+#block-webform-client-block-33  legend {
+   display: none;
+}
+
+#block-webform-client-block-33 #webform-component-visitor-info {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+	float: left;
+}
+
+#block-webform-client-block-33 .form-item input {
+    font-size: 12px;
+    padding: 10px;
+    width: 230px;
+	color: #777777;
+	font-family: monospace;
+}
+
+#block-webform-client-block-33 textarea {
+    color: #777777;
+    font-family: monospace;
+    font-size: 12px;
+    height: 107px;
+    line-height: 21px;
+    padding: 10px;
+    width: 378px;
+}
+
+#block-webform-client-block-33 #webform-component-message-to-dealer {
+    width: 376px;
+	float: left;
+}
+
+#block-webform-client-block-33  h2 , #block-gmap-location-0 h2, #block-block-11 h2{
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 14px;
+}
+
+#edit-actions{
+	clear: both;
+}
+
+#webform-client-form-33 {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: none;    
+    padding: 2px 34px 14px;
+	-moz-transition: box-shadow 0.5s ease-out;
+	-o-transition: box-shadow 0.5s ease-out;
+	-webkit-transition: box-shadow 0.5s ease-out;
+	transition: box-shadow 0.5s ease-out;
+}
+
+#webform-client-form-33:hover {
+	-moz-box-shadow: 0 0 40px #CCCCCC;
+	-o-box-shadow: 0 0 40px #CCCCCC;
+	-webkit-box-shadow: 0 0 40px #CCCCCC;
+	box-shadow: 0 0 40px #CCCCCC;
+}
+
+#webform-client-form-33 .form-submit {
+    background: none repeat scroll 0 0 #0099CC;
+    border: 1px solid #0099CC;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 38px;
+    margin-top: 0 !important;
+    padding: 10px;	
+	font-size: 10px;
+	-moz-transition: color 0.5s ease-out, background-color 0.5s ease-out;
+	-o-transition: color 0.5s ease-out, background-color 0.5s ease-out;
+	-webkit-transition: color 0.5s ease-out, background-color 0.5s ease-out;
+	transition: color 0.5s ease-out, background-color 0.5s ease-out;
+}
+
+#webform-client-form-33 .form-submit:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #0099CC;    
+}
+
+#webform-client-form-33 #edit-actions {
+    clear: both;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: right;
+}
+
+#webform-client-form-33 .captcha {
+    border: medium none;
+    float: left;
+    margin-left: 0;
+    margin-top: -21px;
+    padding: 0;
+}
+
+#webform-client-form-33 .captcha .fieldset-description{
+	display: none;
+}
+
+#webform-client-form-33 .fieldset-description {
+    color: #999999;
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 331px;
+    position: absolute;
+    width: 390px;
+}
+
+div.messages ul li {
+    font-size: 12px;
+    list-style-image: none;
+}
+
+
+
+/* Agent Block */
+
+.field-name-field-agent h2{
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 14px;
+}
+		
+.field-name-field-agent .field-name-field-photo {
+    background: url("../images/agent-mini.png") no-repeat scroll 4px 83px transparent;
+    float: left;
+    height: 152px;
+    margin-right: 21px;
+    padding-right: 20px;
+}
+
+.field-name-field-agent .field-type-text {
+    clear: right;
+    float: right;
+    margin-bottom: 2px;
+    padding-left: 38px;
+    text-align: left;
+    width: 226px;
+}
+
+.field-name-field-agent .field-name-field-mail{
+	display:none;
+}
+
+.field-name-field-agent .field-name-field-photo img{
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+}
+
+
+
+/* "Our Customers Say" Slideshow */
+
+.view-our-customers-say .views-slideshow-cycle-main-frame-row-item {
+    background: url("../images/quotes.png") no-repeat scroll 0 0 transparent;
+}
+
+.view-our-customers-say .views-field-title span {
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 56px;
+}
+
+.view-our-customers-say .views-field-body blockquote {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 9px;
+    margin-left: 56px;
+    margin-top: 5px;
+	margin-right: 0;
+}
+
+.view-our-customers-say .views-field-field-customer-name {
+    margin-right: 0;
+    text-align: right;
+}
+
+
+.view-our-customers-say .views-slideshow-cycle-main-frame-row-item {
+    background: url("../images/quotes.png") no-repeat scroll 0 4px transparent;
+}
+
+.view-our-customers-say .views-slideshow-controls-bottom {
+    margin-left: 56px;
+}
+
+.view-our-customers-say .views-slideshow-controls-bottom .selector {
+    background: url("../images/comments-control.png") no-repeat scroll 0 -20px transparent;
+    float: left;
+    height: 14px;
+    margin-right: 2px;
+    width: 14px;
+}
+
+.view-our-customers-say .views-slideshow-controls-bottom .active .selector {
+    background: url("../images/comments-control.png") no-repeat scroll 0 0 transparent;    
+}
+
+
+/* Slideshow */
+
+
+.view-cars-slideshow .views-field-field-image {
+    float: left;
+    margin-left: -160px;
+    margin-right: 32px;
+    margin-top: -19px;
+    position: absolute;
+    z-index: -10;
+}
+
+.view-cars-slideshow .views-field-field-image-1 {
+    float: left;
+    margin-left: -197px;
+    margin-top: 137px;
+}
+
+
+
+.view-cars-slideshow .views-field-title {
+    margin-top: 200px;
+}
+
+.view-cars-slideshow img {
+    
+}
+
+
+.view-cars-slideshow .views-field-title h2 {
+    font-size: 27px;
+    font-weight: normal;
+    line-height: 48px;
+    margin-bottom: 0;
+    margin-top: -8px;
+}
+
+
+
+.view-cars-slideshow .views-field-title h2 a {
+    background: none repeat scroll 0 0 #0099CC;
+    color: #FFFFFF;
+    font-size: 45px;
+    opacity: 0.9;
+    padding: 7px 17px 0;
+    text-shadow: 1px 1px 8px #000000;
+}
+
+.view-cars-slideshow .views-field-title h2 span {
+    color: #FFFFFF;
+}
+
+#block-views-cars-slideshow-block{
+	border-top: none !important; 
+}
+
+
+.view-cars-slideshow #views_slideshow_cycle_teaser_section_cars_slideshow-block, .view-cars-slideshow .views-slideshow-cycle-main-frame-row, .view-cars-slideshow .views-slideshow-cycle-main-frame-row-item{
+	width: 960px;
+}
+
+.view-cars-slideshow .views-slideshow-cycle-main-frame-row-item {
+    padding-top: 24px;
+}
+
+
+.view-cars-slideshow .views-field-nothing-2 {
+    background: none repeat scroll 0 0 #0099CC;
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 23px;
+    margin-right: 344px;
+    margin-top: 1px;
+    opacity: 0.9;
+    padding: 0 17px 9px;
+    text-shadow: 1px 1px 3px #000000;
+    width: 500px;
+}
+
+.view-cars-slideshow .views-field-nothing-1 {
+    background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-size: 15px;
+    height: 18px;
+    line-height: 20px;
+    margin-right: 344px;
+    margin-top: 0;
+    opacity: 0.9;
+    padding: 13px 17px 7px;
+    text-shadow: none;
+}
+
+.view-cars-slideshow .views-slideshow-controls-bottom .selector{
+	background: url("../images/slide-control.png") no-repeat scroll 2px -20px transparent;
+    height: 16px;
+    margin-right: 5px;
+    padding: 0;
+    position: relative;
+    width: 16px;	
+}
+
+.view-cars-slideshow .views-slideshow-controls-bottom .active .selector , .view-cars-slideshow .views-slideshow-controls-bottom .selector:hover {
+    background: url("../images/slide-control.png") no-repeat scroll 2px 1px transparent;
+}
+
+.view-cars-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-field-item{
+	display: inline-block;
+}
+
+.view-cars-slideshow .views-slideshow-controls-bottom .views-slideshow-pager-fields{
+	text-align: center;
+}
+
+.view-cars-slideshow .views-slideshow-controls-bottom {
+    border-bottom: 1px dashed #CCCCCC;
+    height: 30px;
+    margin-bottom: 37px;
+    margin-left: 0;
+    margin-top: 66px;
+    position: absolute;
+    width: 960px;
+    z-index: 20;
+}
+
+.view-cars-slideshow .views-slideshow-cycle-main-frame-row-item .views-field-nothing-1 a {
+    background: url("../images/detailed.png") no-repeat scroll 6px 5px #EEEEEE;
+    display: block;
+    float: left;
+    font-size: 13px;
+    margin-right: 18px;
+    margin-top: 0;
+    padding: 4px 8px 1px 27px;
+}
+
+.view-cars-slideshow .views-slideshow-cycle-main-frame-row-item .views-field-nothing-1  a.details:hover{	
+	background: url("../images/detailed-hover.png") no-repeat scroll  6px 5px #0099CC;
+	color: #FFFFFF;
+}
+
+
+.view-cars-slideshow .views-slideshow-cycle-main-frame-row-item .views-field-nothing-1 a.interested {
+    background: url("../images/interested.png") no-repeat scroll 6px 7px #EEEEEE;
+}
+
+.view-cars-slideshow .views-slideshow-cycle-main-frame-row-item .views-field-nothing-1  a.interested:hover{	
+	background: url("../images/interested-hover.png") no-repeat scroll  6px 7px #0099CC;
+	color: #FFFFFF;
+}
+
+.view-cars-slideshow .new , .view-cars-slideshow .low , .view-cars-slideshow .featured , .view-cars-slideshow .sold {
+    height: 267px;
+    margin-top: -23px;
+    width: 393px;
+}
+
+
+/* Blog */
+
+.view-cardealer-blog img {
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+}
+
+.view-cardealer-blog .views-field-field-image {
+    background: url("../images/car-footer.png") no-repeat scroll center 184px transparent;
+    float: left;
+    margin-bottom: 32px;
+    margin-right: 22px;
+    width: 323px;
+}
+
+.view-cardealer-blog .views-field-nothing {
+    background: none repeat scroll 0 0 #555555;
+    color: #FFFFFF;
+    float: left;
+    margin-right: 12px;
+    padding: 3px 9px;
+}
+
+.view-cardealer-blog .views-field-nothing .month {
+    font-size: 12px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.view-cardealer-blog .views-field-nothing .day {
+    font-size: 26px;
+    margin-top: -3px;
+    padding-bottom: 7px;
+}
+
+.view-cardealer-blog .views-field-title h3 {
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 9px;
+    margin-top: 0;
+}
+
+.view-cardealer-blog .views-field-title h3 a{
+    color: #333333;
+}
+
+.view-cardealer-blog .views-field-body {
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.view-cardealer-blog .views-row {
+    border-bottom: 1px dashed #CCCCCC;
+    margin-bottom: 28px;
+    padding-bottom: 24px;
+}
+
+.view-cardealer-blog .views-row-last{
+	border-bottom: none;
+    margin-bottom: 0;
+}
+
+/* Article */ 
+
+.node-article .field-name-field-image {
+    float: left;
+    margin-right: 10px;
+}
+
+.node-type-article .view-mode-full p, .node-type-page .view-mode-full p{
+    font-size: 12px;
+}
+
+.node-article .field-name-field-image img{
+	padding: 3px;
+	border: solid 1px #CCCCCC;
+}
+
+.node .submitted {
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 12px;
+}
+
+.map-image{
+	float: left;
+	padding-right:10px;
+	
+}
+
+.gmap-popup {
+    font-size: 12px;
+    height: 52px;
+    line-height: 14px;
+    overflow: hidden;
+    padding-top: 2px;
+}
+
+#gmap-auto1map-gmap0 {
+    border: 1px solid #CCCCCC;
+}
+
+#block-gmap-location-0 {
+    position: absolute;
+    top: 660px;
+    width: 746px;
+}
+
+.node-type-property #block-gmap-location-0 {
+    position: relative;
+	top: auto;
+}
+
+
+#field-name-field-image.field-type-image { 
+	position: absolute; 
+	height: 100px; 
+	top: 0; }
+
+/* Slideshow Controls */
+
+.view-cars-slideshow .views-slideshow-controls-top {
+    display: none;
+}
+
+.views-field-edit-node,  .views-field-edit-term{    
+    position: absolute;
+	z-index: 10;
+}
+
+.views-field-edit-node a, .views-field-edit-term a {
+    background: url("../images/edit.png") no-repeat scroll 0 2px transparent;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    height: 21px;
+    margin-left: -5px;
+    margin-top: 3px;
+    padding: 0 1px 1px 10px;
+    position: absolute;
+    width: 37px;
+}
+
+.views-field-edit-node a:hover, .views-field-edit-term  a:hover{
+    background: url("../images/edit-hover.png") no-repeat scroll 0 2px transparent;
+	color: #FF0000;
+}
+
+.view-id-blog_view .views-field-edit-node a {
+    margin-left: -291px;
+}
+
+img{
+	max-width: none;
+}
+
+
+/* Features and Search */
+
+.view-realestate-site-features .views-row {
+    float: left;
+    margin-bottom: 18px;
+    margin-right: 50px;
+    margin-top: 25px;
+    padding-right: 20px;
+    width: 273px;
+}
+
+.view-realestate-site-features .views-row-3 {
+    border-right: medium none;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+
+.view-realestate-site-features .views-row .views-field-field-item-image {
+    float: left;
+    height: 61px;
+    margin-right: 10px;
+}
+
+
+.view-realestate-site-features .views-row .views-field-title h2 {
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+
+.view-realestate-site-features .views-row .views-field-body {
+    clear: both;
+    line-height: 21px;
+    margin-bottom: 27px;
+}
+
+.view-realestate-site-features .views-row .views-field-nothing {
+    margin-top: -16px;
+}
+
+
+
+#block-search-form {
+    background: url("../images/search.png") repeat scroll 0 0 #333333;
+    border: medium none !important;
+    clear: both;
+    height: 33px;
+    margin: 15px 0 !important;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-top: 13px;
+}
+
+
+#block-search-form .form-text {
+    font-size: 12px;
+    margin-left: 37px;
+    margin-right: 12px;
+    margin-top: -4px;
+    padding: 6px;
+    width: 665px;
+}
+
+#block-search-form h2.block-title {
+    background: url("../images/search-box.png") no-repeat scroll 0 0 transparent;
+    color: #CCCCCC;
+    float: left;
+    font-size: 18px;
+    margin-top: -2px;
+    padding: 0 0 0 40px;
+}
+
+
+
+#block-search-form #edit-submit {
+    height: 36px;
+}
+
+#block-search-form .container-inline {
+    margin-top: -5px;
+}
+#block-search-form #search-block-form {
+    float: left;
+}
+
+
+/* Agents Block and Page */
+
+.clear{
+	clear: both;
+}
+
+.view-agents .views-row {
+    float: left;
+    min-height: 300px;
+}
+
+.view-agents .views-row .views-field-field-photo {
+    background: url("../images/agent-footer.png") no-repeat scroll 7px 158px transparent;
+    border-right: 1px dashed #CCCCCC;
+    height: 168px;
+    margin-right: 21px;
+    padding-right: 20px;
+}
+
+.view-agents .views-row-last  .views-field-field-photo{
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+	
+}
+.view-agents .views-row .views-label-field-phone-number, .view-agents .views-row .views-label-field-location{
+	color:#999999;
+}
+
+.view-agents .views-field-field-photo img {
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+}
+
+.view-agents .views-field-name a{
+	color: #333333;
+}
+
+.view-agents .views-field-name h3 {
+    margin-bottom: 3px;
+    margin-top: 7px;
+}
+
+.view-agents .views-field-field-phone-number, .view-agents .views-field-name-1 , .view-agents .views-field-field-location{
+    font-size: 12px;
+}
+
+
+
+
+/* Home Variant 1 */
+
+.section-home-variant-1 .breadcrumb , .section-home-variant-1  h1{
+	display: none;
+}
+
+.section-home-variant-1 .view-id-browse_cars {
+	display: block !important;
+}
+
+.section-home-variant-1 .region-highlighted {
+    margin-top: 8px;
+}
+
+.section-home-variant-1 #block-views-agents-block-1 {
+    margin-top: 32px;
+}
+
+.section-home-variant-1 #gmap-auto1map-gmap0 {
+    border-left: medium none;
+    border-right: medium none;
+    left: 0;
+    margin-top: -16px;
+    position: absolute;
+    right: 0;
+}
+
+.section-home-variant-1 .gmap-popup {
+    
+    line-height: 13px;
+}
+
+/* Home Variant 2 */
+
+.section-home-variant-2 #block-views-agents-block-1 {
+    margin-top: 32px;
+}
+
+
+.front #block-system-main-menu ul.menu .menu-692 a {
+    border-top: 7px solid #FFFFFF ;
+    color: #333333;
+}
+
+.front #block-system-main-menu ul.menu .menu-692 a:hover {
+    border-top: 7px solid #0099CC;
+    color: #0099CC;
+}
+
+
+
+.front #block-system-main-menu ul.menu .menu-692 li a {
+    border-top: none ;
+}
+
+.front #block-system-main-menu ul.menu .menu-692 li a:hover {
+    border-top: none ;
+}
+
+.front #block-system-main-menu ul.menu .menu-692 .menu-874{
+	color: #0099CC;
+}
+/* Mobile Portrait Fixes */
+
+/* Slideshow Controls */
+
+.view-cars-slideshow .views-slideshow-controls-top {
+    display: none;
+}
+
+.views-field-edit-node{    
+    position: absolute;
+}
+
+.views-field-edit-node a {
+    background: url("../images/edit.png") no-repeat scroll 0 2px transparent;
+    color: #FFFFFF;
+    font-size: 0.8em;
+    height: 21px;
+    margin-left: -5px;
+    margin-top: 3px;
+    padding: 0 1px 1px 10px;
+    position: absolute;
+    width: 37px;
+}
+
+.views-field-edit-node a:hover {
+    background: url("../images/edit-hover.png") no-repeat scroll 0 2px transparent;
+	color: #FF0000;
+}
+
+.view-id-blog_view .views-field-edit-node a {
+    margin-left: -291px;
+}
+
+#logo-mobile{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#logo{
+	display: none;
+}
+
+#block-system-user-menu{
+	display: none;
+}
+
+
+#block-block-6 p {
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+#header{
+	padding: 0 10px;
+}
+
+.view-cars-slideshow .views-field-field-image-1 {
+    display: none;
+}
+
+.view-cars-slideshow .new, .view-cars-slideshow .low, .view-cars-slideshow .featured, .view-cars-slideshow .sold {
+    margin-top: -23px;
+    width: 303px;
+}
+
+.view-cars-slideshow .views-field-field-image {
+    float: none;
+}
+
+.view-cars-slideshow .new, .view-cars-slideshow .low, .view-cars-slideshow .featured, .view-cars-slideshow .sold {
+    margin-top: -213px;
+    width: 303px;
+}
+
+.view-cars-slideshow .views-field-title h2 {
+    font-size: 23px;
+    line-height: 24px;
+    margin-bottom: -3px;
+    margin-top: 2px;
+    width: 300px;
+}
+
+.view-cars-slideshow .views-field-field-miles {
+    font-size: 13px;
+    line-height: 17px;
+    margin-right: 59px;
+    margin-top: 11px;
+    width: 300px;
+}
+
+.view-cars-slideshow .views-field-nothing-1{
+	display:none;
+}
+
+body.front #block-block-5 h3 {
+    float: none;
+    font-size: 17px;
+    margin: 3px 10px 33px;
+    width: auto;
+}
+
+body.front .view-display-id-block_3 .views-row-4{
+	display: none;
+}
+
+body.front #block-block-5 {
+    border-bottom: 1px dashed #CCCCCC;
+    margin: 37px 15px;
+    min-height: auto;
+    padding: 8px;
+}
+
+
+body.front #block-block-5 .call-to-action:hover {
+    background: url("../images/call.png") no-repeat scroll 15px -75px #FFFFFF;
+}
+
+.view-cars-slideshow .views-slideshow-controls-top {
+    display: block;
+    margin: 62px 0 0 -10px;
+    position: absolute;
+    width: 320px;
+    z-index: 50;
+}
+.view-cars-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-pause {
+    display: none;
+}
+.view-cars-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-previous {
+    float: left;
+}
+.view-cars-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-previous a {
+    -moz-transition: opacity 0.5s ease-out 0s;
+    background: url("../images/small-slide-arrows.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 0;
+    height: 96px;
+    opacity: 0.6;
+    width: 62px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.view-cars-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-previous a {
+   		background: url("../images/small-slide-arrows-left@2x.png") no-repeat scroll 0 0 transparent;
+		background-size: 62px 96px;
+	}
+}
+
+
+.view-cars-slideshow .views-slideshow-controls-top .views_slideshow_controls_text_next {
+    float: right;
+}
+
+.view-cars-slideshow .views-slideshow-controls-top .views_slideshow_controls_text_next a {
+    -moz-transition: opacity 0.5s ease-out 0s;
+    background: url("../images/small-slide-arrows.png") repeat scroll 62px 0 transparent;
+    display: block;
+    font-size: 0;
+    height: 96px;
+    opacity: 0.6;
+    width: 62px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.view-cars-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-next a {
+   		background: url("../images/small-slide-arrows-right@2x.png") no-repeat scroll 0 0 transparent;
+		background-size: 62px 96px;
+	}
+}
+
+
+#block-views-our-customers-say-block {
+    padding: 13px 10px 27px 0;
+}
+
+#views_slideshow_cycle_div_our_customers_say-block_0{
+	width: 290px !important;
+}
+
+#views_slideshow_cycle_teaser_section_cars_slideshow-block{
+	height: 324px !important;
+}
+
+
+
+/* Car Page */
+
+body.not-front {
+    background: url("../images/header-background.png") repeat-x scroll 0 36px transparent;
+}
+
+body.not-front #main {
+    display: table !important;
+    padding-top: 0;
+    width: 300px !important;
+}
+
+body.not-front .sidebars {
+    display: table-footer-group;
+    float: none;
+    margin-right: 0;
+	padding: 0 10px;
+}
+
+body.not-front #content {
+    display: table-row-group;
+    margin-left: 0;
+    padding: 0 10px;
+	width: 320px; 
+	border-left: none;
+}
+
+.sidebar-first .region-sidebar-first {
+    border-right: medium none;
+    border-top: 10px groove #CCCCCC;
+    padding-right: 0;
+    padding-top: 24px;
+    width: 320px;
+}
+
+body.node-type-property .field-name-field-image .field-slideshow img {
+    width: 292px;
+}
+
+body.node-type-property .field-name-field-image .field-slideshow-slide {
+    background: url("../images/car-footer.png") no-repeat scroll center 202px transparent;
+    height: 214px !important;
+    width: 300px !important;
+}
+
+#field-slideshow-1-wrapper .field-slideshow {
+    height: 209px !important;
+}
+
+body.node-type-property #field-slideshow-1-carousel-wrapper #field-slideshow-1-carousel {
+    width: 270px;
+}
+
+body.node-type-property #field-slideshow-1-controls {
+    width: 262px;
+	margin-top: -129px;
+}
+
+
+body.node-type-property #field-slideshow-1-carousel-wrapper {
+    margin-top: -2px;
+}
+
+body.node-type-property.sidebar-first .group-details {
+    margin-top: 16px;
+    width: 262px;
+}
+
+body.node-type-property .field-group-htabs-wrapper {
+    width: 300px;
+}
+
+#block-webform-client-block-33 {
+    width: 300px;
+}
+
+#webform-client-form-33 .fieldset-description {
+    margin-bottom: -6px;
+    margin-top: 21px;
+    position: relative;
+    width: 256px;
+}
+
+#block-webform-client-block-33 textarea {
+    width: 257px;
+}
+
+#webform-client-form-33 {
+    padding: 2px 24px 14px;
+}
+
+.form-item .description {
+    font-size: 0.85em;
+    width: 257px;
+}
+
+.resizable-textarea .grippie {
+    width: 255px;
+}
+
+
+.view-related-cars{
+    width: 300px;
+}
+
+.view-related-cars .views-row {
+    margin-right: 20px;
+    padding-bottom: 22px;
+}
+
+.view-related-cars .views-row:nth-child(2n + 2){
+    margin-right: 0;
+}
+
+#block-widgets-s-share-car {
+    clear: both;
+    width: 300px;
+}
+
+.sidebar .block {
+    width: 300px;
+}
+
+#block-multiblock-1 .views-exposed-widget .form-select {
+    height: auto;
+    padding: 12px;
+    width: 296px;
+}
+
+#block-multiblock-1 .views-exposed-widget .form-submit {
+    height: 30px;
+    margin-top: 13px !important;
+    padding: 5px 0;
+    width: 297px;
+}
+
+.sidebar .views-row .views-field-title h4 {
+    font-size: 1.2em;
+}
+
+
+/* Car Browser */
+
+
+body.not-front.no-sidebars #main {
+    display: block !important;
+    padding: 0 10px;
+    width: 300px !important;
+}
+
+body.not-front.no-sidebars #content {
+    display: block;
+	padding: 0;
+}
+
+.section-cars-browser #edit-submit-browse-cars {
+    margin-bottom: 9px;
+    width: 193px;
+}
+
+#edit-price-wrapper .form-text {
+    width: 100px;
+}
+
+.views-exposed-widget .form-select {
+    height: 36px;
+    padding: 10px;
+    width: 270px;
+}
+
+.filters-block .left {
+    margin-bottom: -20px;
+}
+
+.sort-block .left {
+    margin-bottom: -20px;
+    margin-top: 14px;
+}
+
+.view-browse-cars .view-header .cars-summary {
+    background: none repeat scroll 0 0 #EDEDED;
+    border-bottom: 1px dashed #CCCCCC;
+    border-top: medium none;
+    height: auto;
+    margin-left: 0;
+    
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.view-browse-cars .view-header{ 
+	clear: both;
+}
+
+.view-browse-cars .item-list{
+	clear: both;
+}
+
+#quicktabs-browse_cars .quicktabs-tabs {
+    margin-bottom: 10px;
+    margin-left: 19px;
+    margin-top: -17px;
+    padding: 0;
+}
+
+ul.pager {
+    background: none repeat scroll 0 0 #EDEDED;
+    height: auto;
+    margin-left: 0px;
+    padding-left: 15px !important;
+    padding-right: 14px !important;
+    padding-top: 14px !important;
+    text-align: left !important; 
+	margin-bottom: 0;
+}
+
+.view-browse-cars .view-footer .cars-summary {
+    background: none repeat scroll 0 0 #EDEDED;
+    border-bottom: 1px dashed #CCCCCC;
+    border-top: medium none;
+    height: auto;
+    margin-left: 0;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+
+/* Car List Browser */
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-image img {
+    width: 74px;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-title h3 {
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-field-title-2 {
+    clear: both;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-image {
+    background: url("../images/car-footer-list.png") no-repeat scroll center 57px transparent;
+    height: 68px;
+    margin-right: 10px;
+	background-size:  78px auto;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-color {
+    display: none;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-cylinders {
+    display: none;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-doors {
+    display: none;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-transmition {
+    display: none;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-drive, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-fuel-type,.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-body-style ,.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-epa-mileage-road- ,.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-miles{
+    display: none;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row {
+    height: auto;
+    padding-bottom: 53px;
+}
+
+.view-browse-cars a.unflag-action {
+    margin-right: -10px;
+}
+
+.view-browse-cars.view-display-id-cars_list .featured {
+    background: url("../images/featured.png") no-repeat scroll 26px 1px transparent;
+	background-size: 77px auto;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.view-browse-cars.view-display-id-cars_list .featured {
+	    background: url("../images/featured@2x.png") no-repeat scroll 26px 1px transparent;
+		background-size: 77px auto;
+	}
+	
+}
+
+.view-browse-cars.view-display-id-cars_list .new {
+    background: url("../images/new.png") no-repeat scroll 26px 1px transparent;
+	background-size: 77px auto;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.view-browse-cars.view-display-id-cars_list .new {
+	    background: url("../images/new@2x.png") no-repeat scroll 26px 1px transparent;
+		background-size: 77px auto;
+	}
+	
+}
+
+.view-browse-cars.view-display-id-cars_list .low {
+    background: url("../images/low.png") no-repeat scroll 26px 1px transparent;
+	background-size: 77px auto;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.view-browse-cars.view-display-id-cars_list .low {
+	    background: url("../images/low@2x.png") no-repeat scroll 26px 1px transparent;
+		background-size: 77px auto;
+	}
+	
+}
+
+.view-browse-cars.view-display-id-cars_list .reduced {
+    background: url("../images/reduced.png") no-repeat scroll 26px 1px transparent;
+	background-size: 77px auto;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.view-browse-cars.view-display-id-cars_list .reduced {
+	    background: url("../images/reduced@2x.png") no-repeat scroll 26px 1px transparent;
+		background-size: 77px auto;
+	}
+	
+}
+
+.view-display-id-cars_list .sold {
+    background: url("../images/sold.png") no-repeat scroll -47px -25px /  transparent;
+	background-size: 173px auto;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.view-display-id-cars_list .sold {
+	    background: url("../images/sold@2x.png") no-repeat scroll -47px -25px /  transparent;
+		background-size: 173px auto;
+	}
+}
+
+/* Table View */
+
+.view-display-id-cars_compare th {
+    background: none repeat scroll 0 0 transparent;	
+    margin-top: -11px;
+    position: absolute;
+}
+
+.view-display-id-cars_compare td {
+    height: 30px !important;
+    padding: 20px 15px 0 17px;
+}
+
+.view-display-id-cars_compare img {
+    width: 70px;
+}
+
+.view-display-id-cars_compare a.flag {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 11px;
+    margin-right: 0;
+    padding-bottom: 6px;
+    padding-top: 5px;
+    width: 47px;
+}
+
+.view-display-id-cars_compare td {
+    font-size: 12px;
+    height: 30px !important;
+    max-width: 76px;
+    padding: 20px 15px 0 17px;
+}
+
+.view-display-id-cars_compare h3 {
+    font-size: 14px;
+}
+
+.view-display-id-cars_compare h4 {
+    font-size: 15px;
+}
+
+.view-display-id-cars_compare table {
+    margin-left: -10px;
+}
+
+
+/* Contact Page */
+
+#contact-site-form input{
+    width: 283px;
+}
+
+#contact-site-form textarea {
+    width: 300px;
+}
+
+#footer {
+    background: url("../images/footer.png") no-repeat scroll center 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+}
+
+#recaptcha_widget_div{
+	margin-left: -36px;
+}
+
+.view-cardealer-blog img {
+    width: 292px;
+}
+
+
+/* Opera Hacks */
+doesnotexist:-o-prefocus, .section-home-variant-1 #gmap-auto1map-gmap0 {
+	    margin-top: 0px !important;
+}
+
+
+/* WebKit Hacks */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#content .views-exposed-form .views-exposed-widget {
+		padding-top: 21px;
+	}
+	#content  .views-exposed-widget .form-submit {
+		margin-top: 6px !important;
+	}
+	#content  #block-views-exp-browse-cars-cars-thumbs {
+		padding-top: 0 !important;
+	}
+} 
+
+#page-top-wide {
+    background: none repeat scroll 0 0 transparent;
+    color: #BBBBBB;
+    margin-left: auto;
+    margin-right: auto;
+    width: 261px;
+}
+
+#block-widgets-s-socialmedia-profile-default {
+    border-left: 1px solid #CCCCCC;
+    float: right;
+    font-size: 11px;
+    height: 17px;
+    margin-bottom: 0;
+    margin-left: 12px;
+    margin-top: 6px;
+    padding-left: 6px;
+    padding-top: 0;
+}
+
+#block-jump-menu-jump-menu-m-main-menu select {
+    font-family: 'PTSansRegular';
+    font-size: 14px;
+    height: 43px;
+    padding: 10px;
+    width: 300px;
+}
+
+#block-gmap-location-0 {
+    width: 300px;
+}
+
+body.node-type-page #content img {
+    height: auto !important;
+    max-width: 100%;
+}
+
+.view-agents .views-row {
+    float: left;
+    margin-right: 30px;
+    min-height: 300px;
+    width: 120px;
+}
+
+.view-agents .views-row {
+    float: left;
+    margin-right: 20px;
+    min-height: 300px;
+    width: 140px;
+}
+
+.view-agents .views-row:nth-child(2n+2) {
+    margin-right: 0;
+}
+
+.view-agents .views-row:nth-child(2n+2) .views-field-field-photo {
+    border-right: medium none;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.view-agents .views-field-field-photo img {
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+    width: 133px;
+}
+
+.view-agents .views-row .views-field-field-photo {
+    background: url("../images/agent-footer.png") no-repeat scroll center 141px transparent;
+    border-right: 1px dashed #CCCCCC;
+    height: 146px;
+    margin-right: 0;
+    padding-right: 0;
+    width: 150px;
+	background-size: 130px auto;
+}
+
+
+
+/* Slideshow Home Variant */
+
+#block-views-cars-slideshow-block {
+    border-top: medium none !important;
+    margin-top: -20px;
+}
+
+.view-cars-slideshow img {
+    margin-left: 0;
+    width: 380px;
+}
+
+.view-cars-slideshow .views-field-field-image {
+    float: left;
+    margin-left: -30px;
+    margin-right: 32px;
+    margin-top: -19px;
+    position: absolute;
+    z-index: -10;
+}
+
+.view-cars-slideshow .views-field-title h2 a {
+    background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-size: 23px;
+    line-height: 28px;
+    opacity: 0.9;
+    padding: 0;
+    text-shadow: 1px 1px 8px #000000;
+}
+
+.view-cars-slideshow .views-field-title {
+    margin-left: 23px;
+    margin-top: 112px;
+}
+
+.view-cars-slideshow #views_slideshow_cycle_teaser_section_cars_slideshow-block, .view-cars-slideshow .views-slideshow-cycle-main-frame-row, .view-cars-slideshow .views-slideshow-cycle-main-frame-row-item {
+    width: 320px;
+}
+
+.view-cars-slideshow .views-slideshow-controls-bottom {
+    border-bottom: medium none;
+    height: 30px;
+    margin-bottom: 37px;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 269px;
+    width: 320px;
+    z-index: 100;
+}
+
+.view-cars-slideshow .views-field-nothing-2 {
+    background: none repeat scroll 0 0 #0099CC;
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 23px;
+    margin-right: 344px;
+    margin-top: 1px;
+    opacity: 0.9;
+    padding: 11px 10px 9px;
+    text-shadow: 1px 1px 3px #000000;
+    width: 255px;
+}
+
+.view-cars-slideshow .views-field-title h2 {
+    background: none repeat scroll 0 0 #0099CC;
+    font-size: 23px;
+    line-height: 24px;
+    margin-bottom: -7px;
+    margin-top: 2px;
+    opacity: 0.9;
+    padding: 6px 11px;
+    width: 253px;
+}
+
+.view-cars-slideshow .views-slideshow-controls-top {
+    margin-left: 0;
+    margin-top: 16px;
+    width: 320px;
+}
+
+
+.region-highlighted {
+    height: 292px;
+}
+
+.front #main, .section-home-variant-2 #main, .page-node-11  #main, .page-node-52  #main {
+    border-top: 1px solid #CCCCCC;
+	margin-top: 0;
+    padding-top: 0 !important;
+}
+ 
+.front .view-filters, #block-views-exp-browse-cars-cars-thumbs {
+    margin-top: 0px;
+}
+  
+.view-realestate-site-features .views-row {
+    padding-right: 0;
+    width: 300px;
+}
+  
+#block-views-our-customers-say-block {
+    clear: both;
+    padding-bottom: 25px !important;
+}
+  
+.view-agents .views-row.views-row-5{
+    display: none;
+}
+  
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+  .view-our-customers-say .views-slideshow-cycle-main-frame-row-item {
+  	    background: url("../images/quotes@2x.png") no-repeat scroll 0 4px transparent;
+  		background-size: 39px auto;
+  }
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.view-cars-slideshow .views-slideshow-controls-bottom .active .selector , .view-cars-slideshow .views-slideshow-controls-bottom .selector:hover {
+	    background: url("../images/slide-control@2x.png") no-repeat scroll 2px 1px transparent;
+		background-size: 14px auto;
+	}
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.view-cars-slideshow .views-slideshow-controls-bottom .selector{
+		background: url("../images/slide-control@2x.png") no-repeat scroll 2px -20px transparent;
+		background-size: 14px auto;
+	}
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.view-our-customers-say .views-slideshow-controls-bottom .active .selector {
+	    background: url("../images/comments-control@2x.png") no-repeat scroll 0 0 transparent;    
+		background-size: 12px auto;
+	}
+}
+
+
+/* Properties Browser */
+
+#quicktabs-browse_cars .view-browse-cars {
+    display: block;
+    width: 300px;
+}
+
+.view-id-browse_cars.view-display-id-attachment_1 {
+    width: 294px !important;
+}
+
+.field-name-field-agent .field-name-field-photo {
+    margin-right: 7px;
+    padding-right: 2px;
+}
+
+.field-name-field-agent .field-type-text {
+    padding-left: 8px;
+    text-align: left;
+    width: 182px;
+}
+
+.field-name-field-agent .field-name-field-photo {
+    height: 123px;
+}
+
+.field-name-field-agent .field-name-field-photo {
+    margin-right: 7px;
+    padding-right: 2px;
+}
+
+.field-name-field-agent .field-type-text {
+    padding-left: 8px;
+    text-align: left;
+    width: 182px;
+}
+
+.taxonomy-term-description {
+    clear: both;
+}
+
+#content .view-cardealer-blog img{
+    max-width: 294px !important;
+}
+
+.page-node #content img {
+    max-width: 100%;
+}
+
+.view-cardealer-blog .views-field-field-image {
+    margin-bottom: 4px;
+}
+
+#block-search-form {
+    background: url("../images/search.png") repeat-x scroll 0 0 #000000;
+	height: 79px;
+	width: 286px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	#block-search-form {
+	    background: url("../images/search@2x.png") repeat-x scroll 0 0 #000000;
+		background-size: 27px auto;
+	}
+}
+
+#block-search-form .form-text {
+    margin-left: -4px;
+    margin-top: 11px;
+    width: 167px;
+}
+
+#block-search-form #edit-submit {
+    width: 80px;
+}
+
+.region-bottom {
+    padding: 12px 10px;
+}
+
+
+/* Google Map Home Variant */
+
+.section-home-variant-1 #gmap-auto1map-gmap0 {
+    margin-top: -41px;
+}
+
+.section-home-variant-1 .region-highlighted {
+    height: 391px;
+    margin-top: 8px;
+}
+
+.view-cars-slideshow img {
+    margin-top: -2px;
+}
+
+
+/* Explore Our Location */
+
+#locationmap_map{
+	width: 100% !important;
+}
+
+.resizable-textarea .grippie {
+    width: 298px;
+}
+
+
+body.front .view-browse-cars.view-display-id-block_3 .views-row-4 {
+    display: none;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-property-type, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-bathrooms, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-bedrooms, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-listing-type, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-garages, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-listing-type, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-lot-size, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-year, .view-browse-cars.view-display-id-cars_list .views-row .views-field-field-sq-ft-{
+	display: none;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-image img {
+    width: 96px;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-field-nothing-1 {
+    clear: both;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-field-image {
+    height: 86px;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-field-title-2 {
+    margin-top: 6px;
+}
+
+
+/* Mortgage Calculator */
+
+#calc-selectors {
+    float: left;
+    width: 250px;
+}
+
+#calc-selectors-2 {
+    border-right: 1px dashed #EEEEEE;
+    float: left;
+    margin-right: 25px;
+    width: 250px;
+}
+
+body.node-type-property .field-name-field-price .field-item {
+    font-size: 16px;
+}
+
+#mortgage .mortage-value {
+    font-size: 18px;
+}
+
+#mortgage .mortage-value span{
+    font-size: 14px;
+}
+
+#mortgage label{
+    font-size: 12px;
+}
+
+#mortgage {
+    background: none repeat scroll 0 0 #EDEDED;
+    float: left;
+    padding: 21px 32px;
+    text-align: left;
+}
+
+#initialpayment, #tax, #propprice{
+	border: none;
+}
+
+#calc-selectors label {
+    float: left;
+}
+
+#block-block-11 .ui-slider {
+    margin-left: 44px;
+    margin-right: 31px;
+    margin-top: -20px;
+}
+
+#block-block-11 .labels {
+    margin-right: 10px;
+}
+
+#calc-selectors input {
+    width: 144px;
+}
+
+.mortgage-data {
+    margin-bottom: 22px;
+}
+
+#initialpayment {
+    font-size: 11px;
+    margin-left: 8px;
+}
+
+#propprice {
+    font-size: 20px;
+}
+
+.years {
+    margin-top: 27px;
+}
+
+ #tax, #timer {
+    border: medium none;
+    font-size: 11px;
+    margin-left: 11px;
+    width: 201px;
+}
+
+#block-md-slider-1 {
+    border-top: 1px solid #CCCCCC;
+}
+
+
+/* Mobile First iPhone */
+
+#block-block-11 .ui-slider {
+    margin-right: 10px;
+}
+
+#mortgage {
+    padding: 21px 155px 21px 28px;
+}
+
+#calc-selectors {
+    width: 300px;
+}
+
+#calc-selectors-2 {
+    border-right: medium none;
+    width: 300px;
+}
+
+.page-node #content img {
+    max-width: 292px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.view-cars-slideshow .views-slideshow-controls-bottom {
+top: 253px;
+}}

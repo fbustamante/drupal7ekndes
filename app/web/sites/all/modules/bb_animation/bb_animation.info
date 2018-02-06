@@ -1,0 +1,7 @@
+name = Bootstrap Blocks Animation
+description = "Providers animation effect when blocks appears. Provides the ability for bootstrap themers to set wether block should hide or show on certain levels using the bootstrap classes."
+core = 7.x
+version = "7.x"
+package = Bootstrap
+
+dependencies[] = libraries

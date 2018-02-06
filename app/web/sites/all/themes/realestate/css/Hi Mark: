@@ -1,0 +1,18 @@
+Hi Mark:
+
+Thanks for reporting the issue! Already fixed. To apply it, just do this:
+
+1 - Go to sites/all/themes/realestate/css/responsive-tablet-layout.css
+2 - Line 443:
+
+ Replace
+
+    margin-bottom: 61px;
+
+with
+
+	margin-bottom: 94px;
+
+Thanks for reporting the bug!!!!!
+
+Best!

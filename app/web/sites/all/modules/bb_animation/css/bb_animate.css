@@ -1,0 +1,45 @@
+.bb-animate {
+  opacity: 0;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  -ms-transition: opacity 1s linear;
+  transition: opacity 1s linear;
+}
+.bb-animate.animated {
+  opacity: 1;
+}
+
+.button-group .bb-animate {
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+  width: 250px;
+  margin: 0;
+  display: inline-block;
+}
+.button-group .bb-animate .title {
+  display: block;
+}
+.button-group .bb-animate .subtitle {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0;
+}
+.button-group .bb-animate a {
+  width: 100%;
+  padding: 25px 0;
+}
+.button-group .bb-animate:first-child a {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.button-group .bb-animate:last-child a {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}

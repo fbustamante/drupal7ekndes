@@ -1,0 +1,6 @@
+name = RealEstate v2.1.41 (Released November 4th, 2015)
+description = RealEstate Premium Theme Installation Profile.
+version = VERSION
+core = 7.x
+dependencies[] = block
+files[] = realestate.profile

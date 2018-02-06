@@ -1,0 +1,68 @@
+/*
+ *	RealEstate Premium Theme v1.5
+ *	Media Layout for Wide Screen Monitors
+ *	
+ *  This stylesheet works only on a +1120px width device. i.e. a Wide Screen Monitor
+ *
+ *  This theme is based(inherits) on the following styles (in order of apperance):
+ *  1 - Zen Base Theme 5.1 for Drupal 7.
+ *  2 - This file.
+ *
+ * For privacy & confidentiality reasons, you can erase these comments.
+ *
+ * Created by DoubleMThemes for ThemeSnap
+ * http://doublemthemes.com
+ */
+ 
+#page, .page{
+	overflow: visible;
+}
+
+.view-cars-slideshow .views-slideshow-controls-top {
+    display: block;
+}
+
+.view-cars-slideshow .views-slideshow-controls-top {
+    margin-left: -76px;
+    margin-top: 171px;
+    position: absolute;
+    width: 1090px;
+    z-index: 100;
+}
+.view-cars-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-pause {
+    display: none;
+}
+.view-cars-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-previous {
+    float: left;
+}
+.view-cars-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-previous a {
+    background: url("../images/slide-arrows.png") repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 0;
+    height: 96px;
+    left: -77px;
+    opacity: 0.6;
+    position: absolute;
+    transition: opacity 0.5s ease-out 0s;
+    width: 62px;
+}
+.view-cars-slideshow .views-slideshow-controls-top .views-slideshow-controls-text-previous a:hover {
+    opacity: 1;
+}
+.view-cars-slideshow .views-slideshow-controls-top .views_slideshow_controls_text_next {
+    float: right;
+}
+.view-cars-slideshow .views-slideshow-controls-top .views_slideshow_controls_text_next a {
+    background: url("../images/slide-arrows.png") repeat scroll 62px 0 transparent;
+    display: block;
+    font-size: 0;
+    height: 96px;
+    opacity: 0.6;
+    position: absolute;
+    right: -99px;
+    transition: opacity 0.5s ease-out 0s;
+    width: 62px;
+}
+.view-cars-slideshow .views-slideshow-controls-top .views_slideshow_controls_text_next a:hover {
+    opacity: 1;
+}

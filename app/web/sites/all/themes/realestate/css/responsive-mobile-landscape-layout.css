@@ -1,0 +1,527 @@
+/*
+ *	RealEstate Premium Theme v1.5
+ *	Media Layout for MaxDeviceWidth 480px
+ *	
+ *  This stylesheet works only on a 480px width device. i.e. an iPhone on Landscape mode.
+ *
+ *  This theme is based(inherits) on the following styles (in order of apperance):
+ *  1 - Zen Base Theme 5.1 for Drupal 7.
+ *  2 - This file.
+ *
+ * For privacy & confidentiality reasons, you can erase these comments.
+ *
+ * Created by DoubleMThemes for ThemeSnap
+ * http://doublemthemes.com
+ */
+
+#page, .page{    
+    width: 480px;
+}
+
+body.not-front #main {
+    width: 480px !important;
+}
+
+#page-top-wide {
+    width: 480px;
+}
+
+#block-widgets-s-socialmedia-profile-default {
+    margin-right: 109px;
+}
+
+#logo-mobile {
+    text-align: center;
+}
+
+.region-header {
+    width: 460px;
+}
+
+#block-jump-menu-jump-menu-m-main-menu select {
+    width: 460px;
+}
+
+.view-cars-slideshow .views-slideshow-controls-top {
+    width: 480px;
+	margin-top: 39px;
+}
+
+.view-cars-slideshow img {
+    width: 370px;
+}
+
+body.front .view-display-id-block_3 .views-row-4{
+	display: block;
+}
+
+.view-cars-slideshow .views-field-field-image-1 {
+    display: block;
+    margin-left: 305px;
+    margin-top: -116px;
+}
+
+.view-cars-slideshow .views-field-field-image-1 img {
+    margin-left: -29px;
+    margin-top: -7px;
+    position: absolute;
+    width: 170px;
+}
+
+.view-cars-slideshow .new, .view-cars-slideshow .low, .view-cars-slideshow .featured, .view-cars-slideshow .sold {
+    margin-top: -265px;
+    width: 382px;
+}
+
+.view-cars-slideshow .views-field-title h2 {
+    font-size: 23px;
+    line-height: 24px;
+    margin-top: 9px;
+    width: 450px;
+}
+
+.view-cars-slideshow .views-field-field-miles {
+    font-size: 13px;
+    line-height: 17px;
+    width: 449px;
+}
+
+.view-cars-slideshow .views-slideshow-controls-bottom {
+    margin-top: 13px;
+}
+
+#block-block-5 p{
+	text-align: center;
+}
+
+body.front .view-browse-cars.view-display-id-block_6 .views-row {
+    margin-left: 88px;
+}
+
+
+#footer .block {
+    float: left;
+    margin-right: 20px;
+    margin-top: 24px;
+    width: 212px;
+}
+
+#footer .block.even {
+    margin-right: 0;
+}
+
+#footer .block.odd {
+    clear: both;
+}
+
+.view-make-browser .views-row:nth-child(2n+2) {
+    border-right: 1px dashed #CEB6A2;
+    margin-right: 9px;
+}
+
+.view-make-browser .views-row:nth-child(3n+3) {
+    border-right: none;
+    margin-right: 0;
+}
+
+body.front .view-make-browser .views-row:nth-child(8n+8) {
+    display: none;
+}
+
+body.front .view-make-browser .views-row:nth-child(7n+7) {
+    display: none;
+}
+
+#views_slideshow_cycle_div_our_customers_say-block_0 {
+    width: 450px !important;
+}
+
+#views_slideshow_cycle_teaser_section_cars_slideshow-block {
+    height: 342px !important;
+}
+
+
+/* Car Browser */
+
+body.not-front.no-sidebars #main {
+    width: 460px !important;
+}
+
+body.not-front #content {
+    width: 480px;
+}
+
+.view-browse-cars .views-row {
+    width: 215px;
+}
+
+.view-browse-cars .views-row-even{
+	margin-right: 0;
+}
+
+.view-browse-cars .views-row-odd{
+	clear: both;
+}
+
+.filters-block .left {
+    margin-bottom: 119px;
+}
+
+.sort-block .left {
+    margin-bottom: 105px;
+}
+
+.view-browse-cars .views-row .views-field-field-image img {
+    border: 1px solid #706858;
+    padding: 3px;
+    width: 200px;
+}
+
+.view-browse-cars .views-row-3 {
+    border-top: 1px dashed #CCCCCC;
+    padding-top: 28PX;
+}
+
+.low, .new, .featured, .reduced {
+    width: 211px;
+}
+
+.view-display-id-cars_thumbs .sold {
+    background: url("../images/sold.png") no-repeat scroll center -22px transparent;
+	background-size: 274px auto;
+	width: 218px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) { 
+	.view-display-id-cars_thumbs .sold {
+	    background: url("../images/sold@2x.png") no-repeat scroll center -22px transparent;
+		background-size: 294px auto;
+	}
+}
+
+.view-browse-cars .views-row .views-field-field-image {
+    background: url("../images/car-footer.png") no-repeat scroll center 146px transparent;
+    height: 153px;
+	background-size: 193px auto;
+}
+
+.view-browse-cars .views-row .views-field-field-image-1 {
+    margin-top: 97px;
+}
+
+
+
+/* Car Lists */
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-title h3 {
+    font-size: 27px;
+    font-weight: normal;
+    line-height: 28px;
+    margin-bottom: 3px;
+    margin-top: -2px;
+    padding-left: 92px;
+	padding-right: 94px;
+}
+
+
+/* Car Compare */
+
+.view-display-id-cars_compare td {
+    max-width: 128px;
+}
+
+
+
+
+/* Car Page */
+
+body.node-type-property #field-slideshow-1-carousel-wrapper #field-slideshow-1-carousel {
+    width: 430px;
+}
+
+body.node-type-property .field-name-field-image .field-slideshow img {
+    width: 452px;
+}
+
+#field-slideshow-1-wrapper .field-slideshow {
+    height: 322px !important;
+}
+
+body.node-type-property .field-name-field-image .field-slideshow-slide {
+    background: url("../images/car-footer.png") no-repeat scroll center 308px transparent;
+    height: 315px !important;
+    width: 460px !important;
+}
+
+body.node-type-property #field-slideshow-1-controls {
+    margin-top: -180px;
+    width: 428px;
+}
+
+body.node-type-property.sidebar-first .group-details {
+    margin-top: 16px;
+    width: 420px;
+}
+
+body.node-type-property .field-group-htabs-wrapper {
+    width: 460px;
+}
+
+#block-webform-client-block-33 {
+    width: 460px;
+}
+
+#webform-client-form-33 .fieldset-description {
+    width: 414px;
+}
+
+#block-webform-client-block-33 .form-item {
+    width: 410px;
+}
+
+#block-webform-client-block-33 .form-item input {
+    width: 383px;
+}
+
+#block-webform-client-block-33 textarea {
+    width: 408px;
+}
+
+.resizable-textarea .grippie {
+    width: 406px;
+}
+
+.view-related-cars .views-row:nth-child(2n+2) {
+    margin-right: 20px;
+}
+
+.view-related-cars .views-row:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.view-related-cars {
+    width: 460px;
+}
+
+.sidebar .block {
+    width: 460px;
+}
+
+#block-multiblock-1 .views-exposed-widget .form-select {
+    width: 464px;
+}
+
+#block-multiblock-1 .views-exposed-widget .form-submit {
+    width: 461px;
+}
+
+#block-widgets-s-share-car {
+    width: 460px;
+}
+#footer {
+    background: url("../images/footer.png") no-repeat scroll center 0 transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+}
+
+#recaptcha_widget_div{
+	margin-left: auto;
+}
+
+.view-cardealer-blog img {
+    width: auto;
+}
+
+.view-cardealer-blog .views-field-field-image {
+    margin-left: 67px;
+}
+
+.sidebar-first .region-sidebar-first {
+    width: 480px;
+}
+
+#block-gmap-location-0 {
+    width: 460px;
+}
+
+/* HomePage Variants */
+
+#block-search-form {
+    width: 445px;
+}
+
+#block-search-form .form-text {
+    width: 317px;
+}
+
+.view-browse-cars .views-row .views-field-field-image img {
+    width: 207px;
+}
+
+
+/* Agents Block */
+
+.view-agents .views-row {
+    margin-right: 20px;
+}
+
+.view-agents .views-row:nth-child(2n+2) {
+    margin-right: 20px;
+}
+
+.view-agents .views-row:nth-child(3n+3) {
+    margin-right: 0;
+}
+
+.view-agents .views-row:nth-child(2n+2) .views-field-field-photo {
+    border-right: 1px dashed #CCCCCC;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.view-agents .views-row:nth-child(3n+3) .views-field-field-photo, .view-agents .views-row-last .views-field-field-photo{
+    border-right: medium none;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.view-agents .views-row .views-field-field-photo {
+    width: 150px;
+}
+
+.view-agents .views-row.views-row-5 {
+    display: block;
+}
+
+
+/* Site Features */
+
+.view-realestate-site-features .views-row {
+    margin-top: 7px;
+    width: 454px;
+}
+
+.view-realestate-site-features .views-row .views-field-title h2 {
+    margin-top: 15px;
+}
+
+
+/* Slideshow */
+
+.view-cars-slideshow img {
+    width: 540px;
+}
+
+.view-cars-slideshow .views-slideshow-controls-bottom {
+    top: 305px;
+	width: 480px;
+}
+
+.view-cars-slideshow .views-field-title {
+    margin-left: 34px;
+    margin-top: 158px;
+}
+
+.view-cars-slideshow .views-field-nothing-2 {
+    width: 392px;
+	margin-left: 34px;
+}
+
+.view-cars-slideshow .views-field-title h2 {
+    width: 390px;
+}
+
+.region-highlighted {
+    height: 312px;
+}
+
+
+/* Contact */
+
+#contact-site-form input {
+    width: 440px;
+}
+
+#contact-site-form textarea {
+    width: 455px;
+}
+
+.resizable-textarea .grippie {
+    width: 453px;
+}
+
+
+/* Properties Browser Google Map */
+
+.filters-block .left {
+    margin-bottom: 263px;
+}
+
+.view-id-browse_cars.view-display-id-attachment_1 {
+    width: 452px !important;
+}
+
+#quicktabs-browse_cars .view-browse-cars {
+    display: block;
+    width: 460px;
+}
+
+body.section-properties-browser #content {
+    width: 460px;
+}
+
+
+/* Agent Info */
+
+.field-name-field-agent .field-type-text {
+    float: left;
+    width: 164px;
+}
+
+.field-name-field-agent .field-name-field-photo {
+    height: 102px;
+}
+
+body.front .view-browse-cars.view-display-id-block_3 .views-row-4 {
+    display: block;
+}
+
+.view-browse-cars.view-display-id-cars_list .views-row .views-field-title h3 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 6px;
+}
+
+
+/* Mortgage Calculator */
+
+#mortgage {
+    padding: 21px 315px 21px 28px;
+}
+
+#calc-selectors {
+    width: 460px;
+}
+
+#calc-selectors-2 {
+    width: 460px;
+}
+
+.years {
+    margin-top: 22px;
+}
+
+.page-node #content img {
+    max-width: 452px;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.view-cars-slideshow .views-slideshow-controls-bottom {
+top: 289px;
+}}
+
+
+
+
